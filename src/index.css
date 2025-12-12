@@ -89,7 +89,7 @@ body {
 
 @layer components {
   header {
-    @apply w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh];
+    @apply w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh] xl:px-2;
 
     nav {
       @apply container mx-auto flex-between px-5 2xl:px-0;
